@@ -31,15 +31,6 @@
         android:layout_marginBottom="16dp">
 
         <!-- Clear Button -->
-        <Button
-            android:id="@+id/btnClear"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="C"
-            android:layout_row="0"
-            android:layout_columnSpan="4"
-            android:layout_gravity="center"
-            android:layout_columnWeight="1" />
 
         <!-- Buttons Row 1 -->
         <Button
@@ -126,10 +117,24 @@
             android:text="=" />
 
         <!-- Buttons Row 5 -->
-        <Button
-            android:id="@+id/btnAdd"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="+" />
     </GridLayout>
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center"
+        android:text="C"
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="208dp" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="208dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
