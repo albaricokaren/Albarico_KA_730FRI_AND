@@ -13,14 +13,6 @@
         android:contentDescription="Item Image"
         android:scaleType="centerCrop" />
 
-    <ImageView
-        android:id="@+id/itemImage1"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:src="@drawable/karen_13"
-        android:contentDescription="Item Image"
-        android:scaleType="centerCrop" />
-
     <TextView
         android:id="@+id/itemText"
         android:layout_width="wrap_content"
@@ -38,5 +30,4 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true" />
-
 </RelativeLayout>

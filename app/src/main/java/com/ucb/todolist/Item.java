@@ -1,18 +1,16 @@
 package com.ucb.todolist;
 
 public class Item {
-    private final int imageResId; // Image resource ID
-    private final String text;    // Text for the item
-    private boolean checked;      // Checked status
+    private int imageResId;
+    private String text;
+    private boolean checked;
 
-    // Constructor
     public Item(int imageResId, String text, boolean checked) {
         this.imageResId = imageResId;
         this.text = text;
         this.checked = checked;
     }
 
-    // Getter methods
     public int getImageResId() {
         return imageResId;
     }
@@ -27,5 +25,9 @@ public class Item {
 
     public void setChecked(boolean checked) {
         this.checked = checked;
+    }
+
+    public void setText(String text) {
+        this.text = text;
     }
 }
