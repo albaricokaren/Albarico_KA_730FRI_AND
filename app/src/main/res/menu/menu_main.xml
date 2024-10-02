@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/option1"
+        android:actionLayout="@layout/menu_item"
+        android:title="About Us"/>
+
+    <item
+        android:id="@+id/option2"
+        android:actionLayout="@layout/menu_item"
+        android:title="Show Dialog"/>
+
+    <item
+        android:id="@+id/option3"
+        android:actionLayout="@layout/menu_item"
+        android:title="More Options">
+        <menu>
+            <item
+                android:id="@+id/submenu_settings"
+                android:title="Settings"/>
+            <item
+                android:id="@+id/submenu_help"
+                android:title="Help"/>
+            <item
+                android:id="@+id/exit_app"
+                android:title="Exit"/>
+        </menu>
+    </item>
+</menu>
+
